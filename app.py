@@ -107,9 +107,12 @@ elif selected_option == "About":
 
 # Developers menu
 elif selected_option == "Developers":
-    st.subheader("Developed By")
+    st.subheader("Guided By")
     st.write("""
-    - **Dr. Suhashini Chaurasiya** (Guide)
+             - **Dr. Suhashini Chaurasiya**
+             """)
+    st.subheader("Develop By")
+    st.write("""
     - **Paras Longadge**: Project Leader
     - **Pranay Dhore**: Lead Developer
     - **Sanket Tajne**: UI/UX Designer
